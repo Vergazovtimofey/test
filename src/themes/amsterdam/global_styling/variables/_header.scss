@@ -1,0 +1,5 @@
+$euiHeaderBorderColor: lightOrDarkTheme(shade($euiBorderColor, 3%), shade($euiColorEmptyShade, 35%));
+
+$euiHeaderHeight: $euiSizeXXL + $euiSizeS;
+$euiHeaderChildSize: $euiSizeXXL;
+$euiHeaderHeightCompensation: $euiHeaderHeight;

@@ -1,0 +1,63 @@
+{
+  "name": "untitl",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@elastic/datemath": "^5.0.3",
+    "@emotion/react": "^11.9.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/chroma-js": "^2.1.3",
+    "@types/enzyme": "^3.10.12",
+    "@types/jest": "^27.5.1",
+    "@types/lodash": "^4.14.182",
+    "@types/node": "^16.11.36",
+    "@types/numeral": "^2.0.2",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "@types/react-is": "^17.0.3",
+    "@types/tabbable": "^3.1.2",
+    "@types/url-parse": "^1.4.8",
+    "@types/uuid": "^8.3.4",
+    "classnames": "^2.3.1",
+    "emotion": "^11.0.0",
+    "enzyme": "^3.11.0",
+    "moment": "^2.29.3",
+    "numeral": "^2.0.6",
+    "prop-types": "^15.8.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-focus-on": "^3.6.0",
+    "react-scripts": "5.0.1",
+    "tabbable": "^5.3.3",
+    "typescript": "^4.7.2",
+    "url-parse": "^1.5.10",
+    "uuid": "^8.3.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

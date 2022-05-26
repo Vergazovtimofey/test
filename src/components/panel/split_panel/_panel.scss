@@ -1,0 +1,8 @@
+@include euiPanel($selector: '.euiPanel');
+
+// Padding
+@each $modifier, $amount in $euiPanelPaddingModifiers {
+  .euiPanel--#{$modifier} {
+    padding: $amount;
+  }
+}
